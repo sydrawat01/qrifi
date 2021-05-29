@@ -1,7 +1,7 @@
-import classes from './App.module.css';
-import ReactLogo from './assets/react-logo.svg';
-import TSLogo from './assets/ts-logo.svg';
-import ReduxLogo from './assets/redux-logo.svg';
+import classes from './App.module.css'
+import ReactLogo from './assets/react-logo.svg'
+import TSLogo from './assets/ts-logo.svg'
+import ReduxLogo from './assets/redux-logo.svg'
 
 const App = () => {
   return (
@@ -33,7 +33,7 @@ const App = () => {
         </div>
       </header>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

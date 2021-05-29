@@ -62,11 +62,4 @@ module.exports = {
     new DashboardPlugin(),
     new Dotenv(),
   ],
-  devServer: {
-    port: 3000,
-    hot: true,
-    inline: true,
-    historyApiFallback: true,
-    contentBase: './build',
-  },
 };
