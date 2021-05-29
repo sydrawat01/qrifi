@@ -1,15 +1,9 @@
-<h1 align="center">React Boilerplate</h1>
-<p align="center">
-  <a href="reactjs.org/" target="_blank" style="text-align: center">
-    <img src="./src/assets/react-logo.svg" width="32rem" height="32rem" >
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" style="text-align: center">
-    <img src="./src/assets/ts-logo.svg" width="32rem" height="32rem" >
-  </a>
-  <a href="https://redux-toolkit.js.org/" target="_blank"style="text-align: center">
-    <img src="./src/assets/redux-logo.svg" width="32rem" height="32rem" >
-  </a>
-</p>
+<h1 align="center"> :hibiscus: React Boilerplate</h1>
+<div align="center">
+    <img src="./src/assets/react-logo.svg" alt="react" width="85"/>
+    <img src="./src/assets/ts-logo.svg" alt="ts" width="60" />
+    <img src="./src/assets/redux-logo.svg" alt="redux" width="60" />
+</div>
 
 This is a solid React + Typescript Boilerplate, using [Webpack](https://webpack.js.org/) and [Babel](https://babeljs.io/), with [`CSS Modules`](https://github.com/css-modules/css-modules), [`SASS`](https://sass-lang.com/) and traditional CSS stylesheets.
 
