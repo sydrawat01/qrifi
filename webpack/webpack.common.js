@@ -21,28 +21,6 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
-        include: /\.module\.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1,
-              modules: {
-                localIdentName: '[name]_[local]_[hash:base64]',
-                auto: true,
-              },
-            },
-          },
-        ],
-      },
-      {
-        test: /\.css$/,
-        exclude: /\.module\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
         test: /\.(?:ico|png|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
