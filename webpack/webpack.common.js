@@ -1,9 +1,9 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
-  devtool: 'inline-source-map',
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
@@ -55,12 +55,12 @@ module.exports = {
     path: path.resolve(__dirname, '..', './build'),
     filename: 'bundle.js',
   },
-  mode: 'development',
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, '..', './public/index.html'),
     }),
     new DashboardPlugin(),
+    new Dotenv(),
   ],
   devServer: {
     port: 3000,

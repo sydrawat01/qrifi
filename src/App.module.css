@@ -15,18 +15,27 @@
 
 .Tools-logo {
   height: 32vmin;
-  pointer-events: none;
   margin-right: 2.75rem;
 }
 
 .React-logo {
   height: 32vmin;
-  pointer-events: none;
+}
+
+.Tools-logo {
+  transition: transform 0.3s ease-out;
+}
+
+.Tools-logo:hover {
+  transform: scale(1.05);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .React-logo {
-    animation: React-logo-spin infinite 20s linear;
+    animation: React-logo-spin infinite 10s linear;
+  }
+  .React-logo:hover {
+    animation-play-state: paused;
   }
 }
 
@@ -46,5 +55,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1.1);
   }
 }
