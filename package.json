@@ -7,6 +7,9 @@
     "type": "git",
     "url":"git+https://github.com/sydrawat/react-boilerplate.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/sydrawat/react-boilerplate#readme",
   "author": "Siddharth Rawat",
   "license": "MIT",
