@@ -1,14 +1,11 @@
 {
   "name": "@sydrawat/react-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A boilerplate for React Apps",
   "main": "./src/index.tsx",
   "repository": {
     "type": "git",
-    "url":"git+https://github.com/sydrawat/react-boilerplate.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "url": "git+https://github.com/sydrawat/react-boilerplate.git"
   },
   "homepage": "https://github.com/sydrawat/react-boilerplate#readme",
   "author": "Siddharth Rawat",
@@ -95,5 +92,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/sydrawat/react-boilerplate/issues"
   }
 }

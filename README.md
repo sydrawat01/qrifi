@@ -37,7 +37,7 @@ If you want to grab this from the web using a package manager like `npm` or `yar
 
 ## :microscope: Usage
 
-To use this template:
+If you do not want to install the template using a package manager, you can do so by installing this boilerplate manually from here. Here's how to do so:
 
 - Clone the repository
 
@@ -67,13 +67,20 @@ To run the development server, run the following command:
 
 ## :rocket: Build
 
-Run the following command to build your project for production:
+- Run the following command to build your project for production:
 
 ```shell
   #for yarn users
   yarn build
   #for npm users
   npm run build
+```
+
+- To see the app in prodution mode, navigate to the `build/` folder that is generated after running the above command. This will serve the production ready app to `localhost:5000`.
+
+```shell
+  cd build
+  npx serve
 ```
 
 ## :scroll: License
