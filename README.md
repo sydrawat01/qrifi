@@ -26,18 +26,26 @@ This boilerplate has a lot of features, some worth mentioning are:
 
 ## :arrow_heading_down: Installation
 
-If you want to grab this from the web using a package manager like `npm` or `yarn`, you can get it using the following command(s):
+- Install the boilerplate using the following command:
+
+```shell
+  npx degit https://github.com/sydrawat/react-boilerplate my-app
+```
+
+> Please not that you'll need the [degit](https://www.npmjs.com/package/degit) package pre-installed on your system. If you do not have it, when you run the above command, it prompts you to install the package!
+
+- You'll need to install the dependencies as well:
 
 ```shell
   #for yarn users
-  npm i @sydrawat/react-boilerplate
+  yarn
   #for npm users
-  yarn add @sydrawat/react-boilerplate
+  npm i
 ```
 
 ## :microscope: Usage
 
-If you do not want to install the template using a package manager, you can do so by installing this boilerplate manually from here. Here's how to do so:
+If you do not want to install the template using a third party package, you can do so by installing this boilerplate manually from here. Here's how to do so:
 
 - Clone the repository
 
