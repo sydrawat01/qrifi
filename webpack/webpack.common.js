@@ -37,11 +37,12 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, '..', './public/index.html'),
+      favicon: './src/assets/favicon.ico',
     }),
     new DashboardPlugin(),
     new Dotenv(),
     new CopyWebpackPlugin({
-      patterns: [{ from: './src/**/*', to: './build' }],
+      patterns: [{ from: './src/assets/*', to: './build' }],
     }),
   ],
 }
