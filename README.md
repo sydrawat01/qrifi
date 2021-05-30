@@ -12,8 +12,6 @@ This bolierplate also uses a [webapck dashboard provided by FormidableLabs](http
 
 ## :star2: Features
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/774ac7eb-280e-451e-8f12-539b09207bbe/deploy-status)](https://app.netlify.com/sites/react-boilerplate-syd/deploys)
-
 This boilerplate has a lot of features, some worth mentioning are:
 
 - [TypeScript](https://www.typescriptlang.org/) support
