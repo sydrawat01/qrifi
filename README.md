@@ -8,20 +8,20 @@
 
 This is a solid React + Typescript Boilerplate, using [Webpack](https://webpack.js.org/) and [Babel](https://babeljs.io/), with [`CSS Modules`](https://github.com/css-modules/css-modules), [`SASS`](https://sass-lang.com/) and traditional CSS stylesheets. Supports [React-Router](https://reactrouter.com) and [Redux-Toolkit](https://redux-toolkit.js.org/) too!
 
-This bolieerplate also uses a [webapck dashboard provided by FormidableLabs](https://github.com/FormidableLabs/webpack-dashboard), makes you feel like you work at NASA!
+This bolierplate also uses a [webapck dashboard provided by FormidableLabs](https://github.com/FormidableLabs/webpack-dashboard), makes you feel like you work at NASA!
 
 ## :star2: Features
 
 This boilerplate has a lot of features, some worth mentioning are:
 
-- [TypeScript](https://www.typescriptlang.org/) support!
-- React-Router and Redux Toolkit support!
-- CSS Modules and SASS support!
-- [React Refresh for Webpack](https://github.com/pmmmwh/react-refresh-webpack-plugin).
-- [Dotenv for Webpack](https://github.com/mrsteele/dotenv-webpack).
-- [ESLint](https://eslint.org/).
-- [Prettier](https://prettier.io/).
-- [Husky](https://github.com/typicode/husky) with [lint-staged](https://github.com/okonet/lint-staged).
+- [TypeScript](https://www.typescriptlang.org/) support
+- React-Router and Redux Toolkit support
+- CSS Modules and SASS support
+- [React Refresh for Webpack](https://github.com/pmmmwh/react-refresh-webpack-plugin)
+- [Dotenv for Webpack](https://github.com/mrsteele/dotenv-webpack)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky) with [lint-staged](https://github.com/okonet/lint-staged)
 - [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 
 ## :arrow_heading_down: Installation
@@ -30,7 +30,9 @@ If you want to grab this from the web using a package manager like `npm` or `yar
 
 ```shell
   #for yarn users
+  npm i @sydrawat/react-boilerplate
   #for npm users
+  yarn add @sydrawat/react-boilerplate
 ```
 
 ## :microscope: Usage
@@ -38,7 +40,12 @@ If you want to grab this from the web using a package manager like `npm` or `yar
 To use this template:
 
 - Clone the repository
-- Run the following command:
+
+```shell
+  git clone https://github.com/sydrawat/react-boilerplate.git
+```
+
+- Run the following command
 
 ```shell
   #for yarn users

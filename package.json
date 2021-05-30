@@ -1,12 +1,27 @@
 {
   "name": "@sydrawat/react-boilerplate",
   "version": "1.0.0",
-  "description": "A boilerplate for React Apps.",
-  "main": "index.js",
-  "repository": "git://github.com/sydrawat/react-boilerplate.git",
+  "description": "A boilerplate for React Apps",
+  "main": "./src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/sydrawat/react-boilerplate.git"
+  },
+  "homepage": "https://github.com/sydrawat/react-boilerplate#readme",
   "author": "Siddharth Rawat",
   "license": "MIT",
   "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "react-router",
+    "react-dom",
+    "redux",
+    "redux-toolkit",
+    "webpack",
+    "babel",
+    "scss"
+  ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "react": "^17.0.2",
