@@ -34,7 +34,9 @@
   "scripts": {
     "start": "webpack-dashboard -- webpack serve --config webpack.config.js --env env=dev",
     "prebuild": "rimraf build",
+    "prebuild:info": "rimraf build",
     "build": "webpack --config webpack.config.js --env env=prod",
+    "build:info": "webpack --config webpack.config.js --env env=prod info=true",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
