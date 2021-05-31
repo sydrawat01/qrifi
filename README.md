@@ -8,7 +8,7 @@
 
 This is a solid React + Typescript Boilerplate, using [Webpack](https://webpack.js.org/) and [Babel](https://babeljs.io/), with [`CSS Modules`](https://github.com/css-modules/css-modules), [`SASS`](https://sass-lang.com/) and traditional CSS stylesheets. Supports [React-Router](https://reactrouter.com) and [Redux-Toolkit](https://redux-toolkit.js.org/) too!
 
-This bolierplate also uses a [webapck dashboard provided by FormidableLabs](https://github.com/FormidableLabs/webpack-dashboard), makes you feel like you work at NASA!
+This boilerplate also uses a [webapck dashboard](https://github.com/FormidableLabs/webpack-dashboard) provided by [FormidableLabs](https://github.com/FormidableLabs), which makes you feel like you work at NASA! :neckbeard:
 
 ## :star2: Features
 
@@ -46,7 +46,7 @@ This boilerplate has a lot of features, some worth mentioning are:
 
 ## :microscope: Usage
 
-If you do not want to install the template using a third party package, you can do so by installing this boilerplate manually from here. Here's how to do so:
+If you do not want to install the template using a third party package, you can do so by downloading this boilerplate manually from here. Here's how to do so:
 
 - Clone the repository
 
@@ -85,10 +85,21 @@ To run the development server, run the following command:
   npm run build
 ```
 
+- To see bundle info from [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) plugin, use the following command(s):
+
+```shell
+  #for yarn users
+  yarn build:info
+  #for npm users
+  npm run build:info
+```
+
+> Bundle info will be shown on `localhost:3001`. This will open automatically once in your preferred browser when you run the above command.
+
 - To see the app in prodution mode, navigate to the `build/` folder that is generated after running the above command. This will serve the production ready app to `localhost:5000`.
 
 ```shell
-  cd build
+  cd build/;
   npx serve
 ```
 
