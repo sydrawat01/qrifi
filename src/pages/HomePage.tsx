@@ -2,13 +2,15 @@ import { FC } from 'react'
 import { Link } from 'react-router-dom'
 import Home from '../components/Home'
 
+import './HomePage.scss'
+
 const HomePage: FC = () => (
-  <div style={{ textAlign: 'center' }}>
+  <main className="homepage">
     <Home />
     <Link to="/counter" className="button">
       Toolkit Example
     </Link>
-  </div>
+  </main>
 )
 
 export default HomePage

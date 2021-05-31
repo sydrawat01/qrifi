@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import { RootState } from '../store'
 
 interface CounterState {
-  counter?: number
+  counter: number
 }
 
 const initialState: CounterState = {
@@ -14,10 +14,10 @@ const counterSlice = createSlice({
   initialState,
   reducers: {
     increment(state: CounterState) {
-      state.counter! += 1
+      state.counter += 1
     },
     decrement(state: CounterState) {
-      state.counter! -= 1
+      state.counter -= 1
     },
   },
 })

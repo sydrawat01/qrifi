@@ -20,7 +20,7 @@ const Counter: FC = () => {
     dispatch(decrement())
   }
   return (
-    <div className="Counter">
+    <article className="Counter">
       <h1>Simple Redux Counter</h1>
       <img src={ReduxLogo} className="Redux-Logo" alt="redux" />
       <div className="Control">
@@ -32,7 +32,7 @@ const Counter: FC = () => {
           +
         </button>
       </div>
-    </div>
+    </article>
   )
 }
 

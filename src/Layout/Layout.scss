@@ -1,0 +1,40 @@
+.layout {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  &-dark {
+    background: #282c34;
+    color: whitesmoke;
+  }
+  &-light {
+    background: antiquewhite;
+    color: #282c34;
+  }
+  .control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    .theme-toggle {
+      text-align: center;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      .moon {
+        height: 2rem;
+      }
+      .sun {
+        height: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    .control {
+      justify-content: center;
+    }
+  }
+}

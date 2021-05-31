@@ -1,4 +1,4 @@
-<h1 align="center"> :hibiscus: React Boilerplate</h1>
+<h1 align="center"> :hibiscus: <a href="https://boilerplate-react-ts.web.app/">React Boilerplate</a></h1>
 <div align="center">
     <img src="./src/assets/react-logo.svg" alt="react" width="85"/>
     <img src="./src/assets/ts-logo.svg" alt="ts" width="60" />
@@ -14,6 +14,7 @@ This bolierplate also uses a [webapck dashboard provided by FormidableLabs](http
 
 This boilerplate has a lot of features, some worth mentioning are:
 
+- Change the theme with the click of a button!
 - [TypeScript](https://www.typescriptlang.org/) support
 - React-Router and Redux Toolkit support
 - CSS Modules and SASS support

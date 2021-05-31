@@ -30,6 +30,9 @@ module.exports = ({ env, info }) => {
         ],
       }
 
-  const config = merge(commonConfig, envConfig, bundleAnalyzer)
+  let config
+  info
+    ? (config = merge(commonConfig, envConfig, bundleAnalyzer))
+    : (config = merge(commonConfig, envConfig))
   return config
 }
