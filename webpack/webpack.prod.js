@@ -1,8 +1,13 @@
+const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   mode: 'production',
   devtool: 'source-map',
+  output: {
+    path: path.resolve(__dirname, '..', './build'),
+    filename: 'static/js/[name].[contenthash:8].js',
+  },
   module: {
     rules: [
       {
@@ -30,5 +35,11 @@ module.exports = {
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: 'static/css/[name].[contenthash:8].css',
+    }),
+  ],
 }
