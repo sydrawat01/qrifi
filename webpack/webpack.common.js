@@ -43,7 +43,7 @@ module.exports = {
       patterns: [
         {
           from: 'src/assets/*',
-          to: 'static/media/[name].[hash:8][ext]',
+          to: 'static/media/[name].[contenthash:8][ext]',
         },
       ],
     }),
