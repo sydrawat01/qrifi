@@ -30,10 +30,6 @@ module.exports = {
       },
     ],
   },
-  output: {
-    path: path.resolve(__dirname, '..', './build'),
-    filename: 'bundle.js',
-  },
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, '..', './public/index.html'),
@@ -41,8 +37,15 @@ module.exports = {
     }),
     new DashboardPlugin(),
     new Dotenv(),
+    // CopyWebpackPlugin is just to demonstrate an example of
+    // copying files to build folder
     new CopyWebpackPlugin({
-      patterns: [{ from: './src/assets/*', to: './build' }],
+      patterns: [
+        {
+          from: 'src/assets/*',
+          to: 'static/media/[name].[hash:8][ext]',
+        },
+      ],
     }),
   ],
 }
