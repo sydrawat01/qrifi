@@ -37,8 +37,6 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
       filename: 'static/css/[name].[contenthash:8].css',
     }),
   ],

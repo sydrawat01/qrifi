@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
   },
   module: {
     rules: [
@@ -37,13 +37,14 @@ module.exports = {
     }),
     new DashboardPlugin(),
     new Dotenv(),
-    // CopyWebpackPlugin is just to demonstrate an example of
-    // copying files to build folder
     new CopyWebpackPlugin({
       patterns: [
         {
           from: 'src/assets/*',
-          to: 'static/media/[name].[contenthash:8][ext]',
+          to: 'static/assets/[name].[contenthash:8][ext]',
+          globOptions: {
+            ignore: ['**/*.ico'],
+          },
         },
       ],
     }),

@@ -33,7 +33,7 @@ This boilerplate has a lot of features, some worth mentioning are:
   npx degit https://github.com/sydrawat/react-boilerplate my-app
 ```
 
-> Please not that you'll need the [degit](https://www.npmjs.com/package/degit) package pre-installed on your system. If you do not have it, when you run the above command, it prompts you to install the package!
+> Please note that you'll need the [degit](https://www.npmjs.com/package/degit) package pre-installed on your system. If you do not have it installed beforehand, it automatically prompts you to install the package when you run the above command.
 
 - You'll need to install the dependencies as well:
 
@@ -51,7 +51,7 @@ If you do not want to install the template using a third party package, you can 
 - Clone the repository
 
 ```shell
-  git clone https://github.com/sydrawat/react-boilerplate.git
+  git clone https://github.com/sydrawat/react-boilerplate.git my-app
 ```
 
 - Run the following command
@@ -74,6 +74,8 @@ To run the development server, run the following command:
   npm run start
 ```
 
+> This serves the app on `localhost:3000` via the webpack-dev-server package.
+
 ## :rocket: Build
 
 - Run the following command to build your project for production:
@@ -94,7 +96,7 @@ To run the development server, run the following command:
   npm run build:info
 ```
 
-> Bundle info will be shown on `localhost:3001`. This will open automatically once in your preferred browser when you run the above command.
+> Bundle info will be shown on `localhost:3001`. This will open automatically in your preferred browser when you run the above command(s).
 
 - To see the app in prodution mode, navigate to the `build/` folder that is generated after running the above command. This will serve the production ready app to `localhost:5000`.
 
