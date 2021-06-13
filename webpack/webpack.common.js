@@ -49,4 +49,11 @@ module.exports = {
       ],
     }),
   ],
+  devServer: {
+    host: '0.0.0.0',
+    disableHostCheck: true,
+    watchOptions: {
+      poll: true // Or you can set a value in milliseconds.
+    }
+  }
 }
