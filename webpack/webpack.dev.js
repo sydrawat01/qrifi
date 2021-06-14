@@ -37,6 +37,11 @@ module.exports = {
     inline: true,
     historyApiFallback: true,
     contentBase: './build',
+    host: '0.0.0.0',
+    disableHostCheck: true,
+    watchOptions: {
+      poll: true,
+    },
   },
   plugins: [new ReactRefreshWebapckPlugin()],
 }
