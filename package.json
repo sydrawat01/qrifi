@@ -30,6 +30,7 @@
   },
   "scripts": {
     "start": "webpack-dashboard -- webpack serve --config webpack.config.js --env env=dev",
+    "docker:start": "webpack serve --config webpack.config.js --env env=dev",
     "prebuild": "rimraf build",
     "prebuild:info": "rimraf build",
     "build": "webpack --config webpack.config.js --env env=prod",
