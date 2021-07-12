@@ -1,0 +1,11 @@
+.light {
+  background-color: $light-bg;
+  min-height: 92.6vh;
+  color: $text-dark;
+  .comment {
+    background: $comment-light;
+  }
+  .post-excerpt {
+    border-bottom: 1px solid $text-dark;
+  }
+}

@@ -25,6 +25,9 @@ This boilerplate has a lot of features, some worth mentioning are:
 - [Husky](https://github.com/typicode/husky) with [lint-staged](https://github.com/okonet/lint-staged)
 - [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 - [Docker](https://www.docker.com/) support added in [v2.0.1](https://github.com/sydrawat/react-boilerplate/releases/tag/v2.0.1)!
+- [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) as described by [Brad Frost](https://bradfrost.com/), is followed in this boilerplate. It is highly opinionated, and hence the boilerplate structure is very flexible, adjustable according to you requirements.
+- Improved styles with atomic design approach with SASS for reference.
+- Redux Thunk example for fetching posts from [JSON Placeholder](https://jsonplaceholder.typicode.com/).
 
 ## :arrow_heading_down: Installation
 

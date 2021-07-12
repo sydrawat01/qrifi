@@ -5,18 +5,17 @@
   }
   .Control {
     display: flex;
-    height: 30vh;
     align-items: center;
     justify-content: space-around;
-    margin: auto 35%;
+    width: 60%;
     h1 {
       font-size: 3rem;
     }
     .Actions {
       border: none;
       display: inline-block;
-      background: #ea3546;
-      color: white;
+      background: $primary;
+      color: $text-dark;
       border-radius: 4px;
       font-weight: 700;
       font-size: 2rem;
@@ -24,7 +23,7 @@
       &:hover,
       &:active {
         cursor: pointer;
-        background: #bb2938;
+        background: $primary-hover;
       }
     }
   }
@@ -54,6 +53,7 @@
 
 @media (max-width: 768px) {
   .Counter {
+    min-height: 100%;
     h1 {
       font-size: 3rem;
     }

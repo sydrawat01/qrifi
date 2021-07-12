@@ -1,16 +1,24 @@
 import { FC } from 'react'
 import { Link } from 'react-router-dom'
-import Home from '../components/Home'
 
-import './HomePage.scss'
+// import '../styles/pages/HomePage.scss'
 
-const HomePage: FC = () => (
-  <main className="homepage">
-    <Home />
-    <Link to="/counter" className="button">
-      Toolkit Example
-    </Link>
-  </main>
-)
+import Home from '../components/Home/Home'
+
+const HomePage: FC = () => {
+  return (
+    <section className="homepage">
+      <Home />
+      <div className="links">
+        <Link to="/counter" className="button">
+          Toolkit Example
+        </Link>
+        <Link to="/app" className="button">
+          Redux Thunk Example
+        </Link>
+      </div>
+    </section>
+  )
+}
 
 export default HomePage
