@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 import Sun from '../assets/light.svg'
 import Moon from '../assets/dark.svg'
+import QR from '../assets/qr-ifi.svg'
 
 const Layout: FC = (props) => {
   const theme = useAppSelector(themeSelector)
@@ -39,19 +40,8 @@ const Layout: FC = (props) => {
       <div className={`${themeClass}`}>
         <nav className={scrolled ? 'sticky' : undefined}>
           <section className="navigation">
-            <NavLink to="/" exact className="navlinks" activeClassName="active">
-              Home
-            </NavLink>
-            <NavLink
-              to="/counter"
-              exact
-              className="navlinks"
-              activeClassName="active"
-            >
-              Counter
-            </NavLink>
-            <NavLink to="/app" className="navlinks" activeClassName="active">
-              Mini App
+            <NavLink to="/" exact>
+              <img src={QR} alt="qr-ifi" className="qr" />
             </NavLink>
           </section>
           <section className="control">

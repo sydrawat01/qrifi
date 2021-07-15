@@ -9,14 +9,10 @@
 
 //Pages
 @import './pages/HomePage.scss';
-@import './pages/AppHome.scss';
 @import './pages/404.scss';
 
 //Components
-@import './components/Counter.scss';
-@import './components/Home.scss';
-@import './components/Comment.scss';
-@import './components/Post.scss';
+@import './components/QRCard.scss';
 
 //Themes
 @import './themes/dark.scss';

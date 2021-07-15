@@ -4,6 +4,9 @@
   top: 0;
 }
 
+.qr {
+  height: 3rem;
+}
 nav {
   display: flex;
   background: $dark-sacffolding;
@@ -12,25 +15,11 @@ nav {
   section {
     width: 100%;
   }
-
   a {
     color: $text-light;
     text-decoration: none;
     font-weight: 700;
-    padding: 1rem 1rem;
     border-radius: 4px;
-    // &:first-of-type {
-    //   // margin-left: -1.5rem;
-    // }
-    &:hover {
-      background: $dark-bg;
-    }
-    &:active,
-    &.active {
-      background: $dark-bg;
-      color: $primary;
-      border-bottom: 2px solid $primary;
-    }
   }
 }
 
@@ -72,13 +61,6 @@ footer {
     font-size: 1rem;
     background-color: $dark-sacffolding;
     color: $text-light;
-  }
-  a {
-    text-decoration: none;
-    color: $primary;
-    &:hover {
-      color: $primary-hover;
-    }
   }
 }
 

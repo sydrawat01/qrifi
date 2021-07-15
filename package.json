@@ -1,17 +1,19 @@
 {
   "name": "@sydrawat/react-boilerplate",
-  "version": "2.1.0",
-  "description": "A boilerplate for React Apps",
+  "version": "1.0.0",
+  "description": "A simple QR code generator for your wifi settings",
   "main": "./src/index.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sydrawat/react-boilerplate.git"
+    "url": "git+https://github.com/sydrawat/qrifi.git"
   },
-  "homepage": "https://github.com/sydrawat/react-boilerplate#readme",
+  "homepage": "https://github.com/sydrawat/qrifi#readme",
   "author": "Siddharth Rawat",
   "license": "MIT",
   "keywords": [
     "react",
+    "qr",
+    "qr-code",
     "typescript",
     "react-router",
     "react-dom",
@@ -23,6 +25,7 @@
   ],
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
+    "qrcode.react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
@@ -97,6 +100,6 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/sydrawat/react-boilerplate/issues"
+    "url": "https://github.com/sydrawat/qrifi/issues"
   }
 }
